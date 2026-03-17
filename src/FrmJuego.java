@@ -71,9 +71,9 @@ public class FrmJuego extends JFrame {
 
         String ganador;
 
-        if (puntos1 > puntos2) {
+        if (puntos1 < puntos2) {
             ganador = "Jugador 1 gana";
-        } else if (puntos2 > puntos1) {
+        } else if (puntos2 < puntos1) {
             ganador = "Jugador 2 gana";
         } else {
             ganador = "Empate";
